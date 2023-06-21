@@ -64,7 +64,7 @@ const Posts = () => {
               All Posts(32)
             </button>
           </div>
-          <div className="d-none d-md-flex">
+          <div className="d-none d-lg-flex">
             <button
               className="nav-link"
               id="nav-article-tab"
@@ -141,6 +141,7 @@ const Posts = () => {
                 className={`d-flex align-items-center btn btn-primary ${
                   checkbox?.checked ? "d-none" : "d-block"
                 }`}
+                style={{ fontWeight: 500 }}
               >
                 <svg
                   width="22"
@@ -282,7 +283,15 @@ const Posts = () => {
                           <i className="fa fa-eye"></i>
                           <span>1.4k Views</span>
                         </div>
-                        <i className="fa-solid fa-share-nodes"></i>
+                        <div
+                          style={{
+                            backgroundColor: "#EDEEF0",
+                          }}
+                          className="px-3 py-1"
+                        >
+                          {" "}
+                          <i className="fa-solid fa-share-nodes"></i>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -309,7 +318,7 @@ const Posts = () => {
                     href="javascript.void(0)"
                     className="d-block border text-center py-2 text-decoration-none text-success rounded-3 mt-3"
                   >
-                    Visit Website
+                    Apply on Timesjobs
                   </a>
                   <div className="d-flex align-items-center justify-content-between gap-2 py-3">
                     <div className="d-flex align-items-center gap-2">
@@ -327,7 +336,13 @@ const Posts = () => {
                         <i className="fa fa-eye"></i>
                         <span>1.4k Views</span>
                       </div>
-                      <i className="fa-solid fa-share-nodes"></i>
+                      <div
+                        className="px-3 py-1"
+                        style={{ backgroundColor: "#EDEEF0" }}
+                      >
+                        {" "}
+                        <i className="fa-solid fa-share-nodes"></i>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -379,12 +394,12 @@ const Posts = () => {
                   ))}
 
                   <div className="text-end pt-4">
-                    <a
-                      className="mt-5 text-decoration-none"
-                      href="javascript.void(0)"
+                    <p
+                      className="mt-5 text-primary"
+                      style={{ cursor: "pointer" }}
                     >
                       See More...
-                    </a>
+                    </p>
                   </div>
                 </div>
               </div>

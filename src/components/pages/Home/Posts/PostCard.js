@@ -64,7 +64,14 @@ const PostCard = ({
               <i className="fa fa-eye"></i>
               <span>1.4k Views</span>
             </div>
-            <i className="fa-solid fa-share-nodes"></i>
+            <div
+              style={{
+                backgroundColor: "#EDEEF0",
+              }}
+              className="px-3 py-1"
+            >
+              <i className="fa-solid fa-share-nodes"></i>
+            </div>
           </div>
         </div>
       </div>

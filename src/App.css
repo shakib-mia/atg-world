@@ -1,38 +1,39 @@
-.modal.show{
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.modal.show {
   width: 100vw !important;
 }
 
-
-
-.post-container{
+.post-container {
   margin-top: 72px;
 }
 
-.post-container button.active{
+.post-container button.active {
   border: 0;
   border-bottom: 2px solid #000 !important;
   font-weight: 600;
 }
 
 .post-container button {
-  color: rgb(37, 37, 37)
+  color: rgb(37, 37, 37);
 }
-
 
 @media only screen and (max-width: 600px) {
   .modal-content {
     width: 93vw !important;
     margin: 0 auto;
     bottom: -44vw !important;
-}
+  }
 }
 
 @media only screen and (min-width: 600px) {
-
 }
 
 @media only screen and (min-width: 768px) {
-
 }
 
 @media only screen and (min-width: 992px) {
@@ -42,5 +43,4 @@
 }
 
 @media only screen and (min-width: 1200px) {
-
 }

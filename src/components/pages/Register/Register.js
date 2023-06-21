@@ -19,7 +19,7 @@ const Register = () => {
             <button
               type="button"
               className="btn-close position-absolute bg-white p-2 pt-1 ps-1 rounded-circle"
-              style={{ right: -15, top: -45 }}
+              style={{ right: -30, top: -37 }}
               data-bs-dismiss="modal"
               aria-label="Close"
             ></button>
@@ -29,7 +29,10 @@ const Register = () => {
                 style={{ backgroundColor: "rgba(25, 135, 84,0.2)" }}
                 className="px-3 py-2"
               >
-                <div className="text-success text-center">
+                <div
+                  className="text-success text-center"
+                  style={{ fontSize: "14px" }}
+                >
                   Let's learn, share & inspire each other with our passion for
                   computer engineering. Sign up now 🤘🏼
                 </div>
@@ -52,45 +55,44 @@ const Register = () => {
                 <div className="input-group mx-3">
                   <div className="d-flex">
                     <input
-                      className="bg-light border-1 py-1"
-                      // style={{ marginLeft: -1, width: "11vw" }}
+                      className="bg-light border-1 py-1 w-50 border-bottom-0 border-end-0 px-2"
                       type="text"
                       placeholder="First Name"
                     />
                     <input
-                      className="bg-light border-1 py-1"
+                      className="bg-light border-1 py-1 w-50 border-bottom-0 px-2"
                       // style={{ marginRight: 0, width: "11.58vw" }}
                       type="text"
                       placeholder="Last Name"
                     />
                   </div>
                   <input
-                    className="bg-light border-1 py-1"
-                    style={{ width: "100vw", marginRight: 4 }}
+                    className="bg-light border-1 py-1 w-100 border-bottom-0 px-2"
+                    style={{ marginLeft: "0px" }}
                     type="email"
                     placeholder="Email"
                   />
                   <input
-                    className="bg-light border-1 py-1"
-                    style={{ width: "100vw", marginRight: 4 }}
+                    className="bg-light border-1 py-1 w-100 border-bottom-0 px-2"
+                    style={{ marginLeft: "0px" }}
                     type="password"
                     placeholder="Password"
                   />
                   <input
-                    className="bg-light border-1 py-1"
-                    style={{ width: "100vw", marginRight: 4 }}
+                    className="bg-light border-1 py-1 w-100 px-2"
+                    style={{ marginLeft: "0px" }}
                     type="password"
                     placeholder="Confirm Password"
                   />
                 </div>
-                <div className="btn btn-primary rounded-pill d-block ms-3 mt-3">
+                <div className="btn btn-primary rounded-pill d-block ms-3 mt-3 w-100">
                   Create Account
                 </div>
-                <div className="btn border-1 border-secondary rounded d-block ms-3 mt-3">
+                <div className="btn border-1 border-secondary rounded w-100 ms-3 mt-3">
                   <i className="fa-brands fa-facebook me-3"></i>
                   Continue With Facebook
                 </div>
-                <div className="btn border-1 border-secondary rounded d-block ms-3 mt-3">
+                <div className="btn border-1 border-secondary rounded w-100 ms-3 mt-3">
                   <img className="me-3" src={google} alt="" />
                   Continue With Facebook
                 </div>

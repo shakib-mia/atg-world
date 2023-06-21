@@ -52,13 +52,13 @@ const Login = () => {
                 <div className="input-group mx-3">
                   <br />
                   <input
-                    className="bg-light border-1 py-2 ps-2"
+                    className="bg-light border-1 py-2 ps-2 me-3"
                     style={{ width: "100vw", marginRight: 4 }}
                     type="email"
                     placeholder="Email"
                   />
                   <input
-                    className="bg-light border-1 py-2 ps-2"
+                    className="bg-light border-1 border-top-0 py-2 ps-2 me-3"
                     style={{ width: "100vw", marginRight: 4 }}
                     type="password"
                     placeholder="Password"
@@ -76,7 +76,7 @@ const Login = () => {
                   Continue With Facebook
                 </div>
               </div>
-              <div className="col-6 d-none d-md-block">
+              <div className="col-6 d-none d-md-block px-0">
                 <h6 className="text-end">
                   Don't have an account yet?{" "}
                   <span
